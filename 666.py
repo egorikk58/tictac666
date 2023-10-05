@@ -27,6 +27,7 @@ def check_Winner():
         return False
     
 def main():
+    count = 0
     while True:
         f()
         if count%2 == 0:
@@ -44,3 +45,4 @@ def main():
             f()
             print('Ничья')
             break
+main()
